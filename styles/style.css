@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+/************Small (Global)****/
+body {
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: white;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 1em;
+	margin: 0;
+	margin-left: 40px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 1em;
+	margin-left: 15px;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 500px;
+	grid-gap: 10px;
+
+	grid-template-areas: 
+		"nav"
+		"weer"
+		"top"
+		"top1"
+		"top2"
+		"top3"
+		"joke"
+		"foot";
+}
+
+.grid-item {
+	margin: 5px 0px 5px 5px;
+}
+
+
+
+
+/**********End Global (small)***/
+
+/************Small-Mid**************/
+@media only screen and (min-width: 470px) and (max-width: 719px) {
+
+
+
+
+}
+/************End Small-Mid**************/
+
+/************Mid**************/
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+
+
+
+
+}
+/**********End Mid************/
+
+/***********Large*************/
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+
+
+
+}
+/*********End Large***********/
+
+/************XL**************/
+@media only screen and (min-width: 1440px) {
+
+
+
+}
+/**********End XL************/
+
