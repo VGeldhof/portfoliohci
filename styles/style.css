@@ -46,12 +46,12 @@ h2 {
 
 	grid-template-areas: 
 		"nav"
-		"weer"
-		"top"
-		"top1"
-		"top2"
-		"top3"
-		"joke"
+		"titel"
+		"navX"
+		"intro"
+		"foto"
+		"expectations"
+		"learn"
 		"foot";
 }
 
@@ -59,7 +59,37 @@ h2 {
 	margin: 5px 0px 5px 5px;
 }
 
+.boxA {
+	grid-area: nav;
+}
 
+.boxB {
+	grid-area: foot;
+}
+
+.box1 {
+	grid-area: titel;
+}
+
+.box2 {
+	grid-area: navX;
+}
+
+.box3 {
+	grid-area: intro;
+}
+
+.box4 {
+	grid-area: foto;
+}
+
+.box5 {
+	grid-area: expectations;
+}
+
+.box6 {
+	grid-area: learn;
+}
 
 
 /**********End Global (small)***/
