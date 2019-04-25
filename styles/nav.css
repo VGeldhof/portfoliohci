@@ -19,15 +19,15 @@ a {
 }
 
 a:hover {
-  color: tomato;
+  color: red;
 }
+
 
 #menuToggle {
   display: block;
   position: relative;
   top: 25px;
   left: 25px;
-  
   z-index: 1;
 }
 
@@ -109,9 +109,10 @@ a:hover {
   position: absolute;
   width: 100%;
   margin: -100px 0 0 -50px;
-  padding: 50px;
   padding-top: 125px;
-  
+  padding-left: 50px;
+  padding-bottom: 50px;
+
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -124,7 +125,7 @@ a:hover {
 }
 
 #menu li {
-  padding: 10px 0;
+  padding: 15px 0;
   font-size: 22px;
 }
 
