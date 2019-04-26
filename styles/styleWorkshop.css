@@ -82,7 +82,7 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -90,9 +90,6 @@ p {
 		"nav"
 		"titel"
 		"opdracht"
-		"concept"
-		"sensors"
-		"sketch"
 		"foot";
 }
 
@@ -167,17 +164,6 @@ img {
 	width: 100%;
 }
 
-.box4 {
-	grid-area: concept;
-}
-
-.box5 {
-	grid-area: sensors;
-}
-
-.box6 {
-	grid-area: sketch;
-}
 
 
 /**********End Global (small)***/
@@ -197,7 +183,7 @@ img {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr
 	height: 500px;
 	grid-gap: 10px;
 
@@ -205,9 +191,6 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"concept concept"
-		"sensors sensors"
-		"sketch sketch"
 		"foot foot";
 }
 
@@ -229,7 +212,7 @@ img {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -237,9 +220,6 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"concept concept"
-		"sensors sensors"
-		"sketch sketch"
 		"foot foot";
 }
 
@@ -270,7 +250,7 @@ h2 {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -278,9 +258,6 @@ h2 {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"concept concept"
-		"sensors sensors"
-		"sketch sketch"
 		"foot foot";
 }
 
