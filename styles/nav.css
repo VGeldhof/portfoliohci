@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-/*
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 html {
   box-sizing: border-box;
@@ -13,21 +9,22 @@ html {
 
 a {
   text-decoration: none;
-  color: #232323;
+  color: white;
   
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: red;
+  color: #db1818;
 }
 
 
 #menuToggle {
   display: block;
   position: relative;
-  top: 25px;
-  left: 25px;
+  top: 15px;
+/*  left: 25px;*/
+  margin-left: 20px;
   z-index: 1;
 }
 
@@ -51,12 +48,12 @@ a:hover {
  */
 #menuToggle span {
   display: block;
-  width: 33px;
-  height: 4px;
+  width: 27px;
+  height: 2px;
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: white;
   border-radius: 3px;
   
   z-index: 1;
@@ -83,7 +80,7 @@ a:hover {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: white;
 }
 
 /*
@@ -113,7 +110,7 @@ a:hover {
   padding-left: 50px;
   padding-bottom: 50px;
 
-  background: #ededed;
+  background: #2a363a;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
