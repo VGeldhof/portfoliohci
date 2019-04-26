@@ -52,6 +52,8 @@ h3 {
 	background: #def2f1;
     padding: 20px;
     box-shadow: 5px 5px rgba(45, 195, 192, 0.4);
+/*    transform: translate(0px, 45px);*/
+
 }
 
 p {
@@ -126,6 +128,29 @@ a:hover > #logoNaam {
 
 .boxB {
 	grid-area: foot;
+	background-color: #17252a;
+	height: 40px;
+}
+
+#logoNaamFooter {
+	font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+/*    margin-left: 75px;*/
+    transform: translate(0px, 9px);
+    margin: 0;
+}
+
+a > #logoNaamFooter {
+	color: #fff;
+}
+
+a:hover > #logoNaamFooter {
+	color: rgb(45, 195, 192);
 }
 
 .box1 {
