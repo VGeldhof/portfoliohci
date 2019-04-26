@@ -285,7 +285,7 @@ h2 {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -293,7 +293,8 @@ h2 {
 		"nav nav"
 		"titel titel"
 		"intro foto"
-		"expectations learn"
+		"expectations expectations" 
+		"learn learn"
 		"foot foot";
 }
 
@@ -306,7 +307,7 @@ h2 {
 }
 
 .box5, .box6 {
-	width: 75%;
+	width: 60%;
     display: inline-block;
     margin: 0 auto;
     margin-top: 100px;
