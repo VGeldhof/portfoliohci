@@ -247,7 +247,7 @@ img {
 		"nav nav"
 		"titel titel"
 		"intro foto"
-		"expectations expectations"
+		"expectations foto"
 		"learn learn"
 		"foot foot";
 }
@@ -260,11 +260,27 @@ img {
 	margin-top: 125px;
 }
 
-.box5, .box6 {
+.box6 {
 	width: 75%;
     display: inline-block;
     margin: 0 auto;
     margin-top: 100px;
+}
+
+.box3, .box5 {
+	width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+/*    margin-top: 100px;*/
+    margin-right: 0;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  	width: 75%;
+  	margin-top: 15%;
 }
 
 }
@@ -293,8 +309,8 @@ h2 {
 		"nav nav"
 		"titel titel"
 		"intro foto"
-		"expectations expectations" 
-		"learn learn"
+		"expectations foto" 
+		"learn foto"
 		"foot foot";
 }
 
@@ -306,18 +322,18 @@ h2 {
 	margin-top: 150px;
 }
 
-.box5, .box6 {
+/*.box5, .box6 {
 	width: 60%;
     display: inline-block;
     margin: 0 auto;
     margin-top: 100px;
-}
+}*/
 
-.box3 {
+.box3, .box5, .box6 {
 	width: 100%;
     display: inline-block;
     margin: 0 auto;
-    margin-top: 100px;
+/*    margin-top: 100px;*/
     margin-right: 0;
 }
 
@@ -326,7 +342,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
   	width: 75%;
-  	margin-top: 100px;
+  	margin-top: 10%;
 }
 
 }
