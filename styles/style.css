@@ -62,7 +62,8 @@ p {
 	margin: 0;
 	padding: 0px 20px 0px 20px;
 	margin-left: 50px;
-	background: rgb(45, 195, 192);;
+/*	background: rgb(45, 195, 192);*/
+	background: #01bcb9;
 	transform: translate(0px, -45px);
 	padding: 25px;
 
@@ -81,14 +82,13 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
 	grid-template-areas: 
 		"nav"
 		"titel"
-		"navX"
 		"intro"
 		"foto"
 		"expectations"
@@ -198,8 +198,37 @@ img {
 /************Mid**************/
 @media only screen and (min-width: 720px) and (max-width: 1023px) {
 
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 500px;
+	grid-gap: 10px;
+
+	grid-template-areas: 
+		"nav nav"
+		"titel titel"
+		"intro foto"
+		"expectations expectations"
+		"learn learn"
+		"foot foot";
+}
+
+.boxB {
+	margin-top: 50px;
+}
 
 
+.box1 {
+	margin-top: 125px;
+}
+
+.box5, .box6 {
+	width: 75%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
 }
 /**********End Mid************/
@@ -207,8 +236,36 @@ img {
 /***********Large*************/
 @media only screen and (min-width: 1024px) and (max-width: 1439px){
 
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 500px;
+	grid-gap: 10px;
 
+	grid-template-areas: 
+		"nav nav"
+		"titel titel"
+		"intro foto"
+		"expectations expectations"
+		"learn learn"
+		"foot foot";
+}
 
+.boxB {
+	margin-top: 50px;
+}
+
+.box1 {
+	margin-top: 125px;
+}
+
+.box5, .box6 {
+	width: 75%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
 }
 /*********End Large***********/
@@ -216,7 +273,60 @@ img {
 /************XL**************/
 @media only screen and (min-width: 1440px) {
 
+.pTitel {
+	font-size: 40px;
+}
 
+h2 {
+	font-size: 80px;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 500px;
+	grid-gap: 10px;
+
+	grid-template-areas: 
+		"nav nav"
+		"titel titel"
+		"intro foto"
+		"expectations learn"
+		"foot foot";
+}
+
+.boxB {
+	margin-top: 50px;
+}
+
+.box1 {
+	margin-top: 150px;
+}
+
+.box5, .box6 {
+	width: 75%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.box3 {
+	width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-right: 0;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  	width: 75%;
+  	margin-top: 100px;
+}
 
 }
 /**********End XL************/
