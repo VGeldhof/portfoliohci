@@ -85,11 +85,11 @@ p {
     margin: 0;
 }
 
-#logoNaam > a {
+a > #logoNaam {
 	color: #fff;
 }
 
-#logoNaam > a:hover {
+a:hover > #logoNaam {
 	color: red;
 }
 
