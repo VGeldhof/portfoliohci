@@ -69,6 +69,13 @@ p {
 
 }
 
+.pNormal {
+	background: none;
+	color: black;
+	width: 75%;
+	margin: 0 auto;
+}
+
 .pTitel {
 	color: black;
 	font-size: 20px;
@@ -90,6 +97,8 @@ p {
 		"nav"
 		"titel"
 		"opdracht"
+		"case"
+		"cfoto"
 		"onderzoek"
 		"reflecteren"
 		"foot";
@@ -162,6 +171,14 @@ a:hover > #logoNaamFooter {
 	grid-area: opdracht;
 }
 
+.box3.1 {
+	grid-area: case;
+}
+
+.box3.2 {
+	grid-area: cfoto;
+}
+
 img {
 	width: 100%;
 }
@@ -201,6 +218,7 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
+		"case cfoto"
 		"onderzoek onderzoek"
 		"reflecteren reflecteren"
 		"foot foot";
@@ -232,6 +250,7 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
+		"case cfoto"
 		"onderzoek onderzoek"
 		"reflecteren reflecteren"
 		"foot foot";
@@ -272,6 +291,7 @@ h2 {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
+		"case cfoto"
 		"onderzoek onderzoek"
 		"reflecteren reflecteren"
 		"foot foot";
