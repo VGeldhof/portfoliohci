@@ -196,6 +196,22 @@ img {
 	grid-area: reflecteren;
 }
 
+.bron {
+	color: black;
+	background-color: #def2f1;
+	padding: 5px;
+	box-shadow: 2px 2px rgba(45, 195, 192, 0.4);
+	text-decoration: none;
+}
+
+.bron:hover {
+	color: rgb(45, 195, 192);
+
+	background-color: white;
+	padding: 5px;
+	box-shadow: 2px 2px rgba(45, 195, 192, 0.4);
+	text-decoration: none;
+}
 
 
 /**********End Global (small)***/
