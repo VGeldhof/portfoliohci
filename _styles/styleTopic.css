@@ -180,8 +180,11 @@ a:hover > #logoNaamFooter {
 	grid-area: cfoto;
 }
 
-img {
-	width: 100%;
+.sketch {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .box4 {
@@ -255,6 +258,10 @@ img {
 	margin-top: 125px;
 }
 
+.sketch {
+	margin-right: 70px;
+}
+
 }
 /**********End Mid************/
 
@@ -285,6 +292,10 @@ img {
 
 .box1 {
 	margin-top: 125px;
+}
+
+.sketch {
+	margin-right: 70px;
 }
 
 
@@ -327,6 +338,10 @@ h2 {
 
 .box1 {
 	margin-top: 150px;
+}
+
+.sketch {
+	margin-right: 70px;
 }
 
 
