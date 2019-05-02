@@ -97,11 +97,11 @@ p {
 	grid-template-areas: 
 		"nav"
 		"titel"
-		"onderzoek"
-		"oTekst"
 		"opdracht"
 		"case"
 		"cfoto"
+		"onderzoek"
+		"oTekst"
 		"reflecteren"
 		"foot";
 }
@@ -238,10 +238,10 @@ img {
 	grid-template-areas: 
 		"nav nav"
 		"titel titel"
-		"onderzoek onderzoek"
-		"oTekst oTekst"
 		"opdracht opdracht"
 		"case cfoto"
+		"onderzoek onderzoek"
+		"oTekst oTekst"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -271,10 +271,10 @@ img {
 	grid-template-areas: 
 		"nav nav"
 		"titel titel"
-		"onderzoek onderzoek"
-		"oTekst oTekst"
 		"opdracht opdracht"
 		"case cfoto"
+		"onderzoek onderzoek"
+		"oTekst oTekst"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -313,10 +313,10 @@ h2 {
 	grid-template-areas: 
 		"nav nav"
 		"titel titel"
-		"onderzoek onderzoek"
-		"oTekst oTekst"
 		"opdracht opdracht"
 		"case cfoto"
+		"onderzoek onderzoek"
+		"oTekst oTekst"
 		"reflecteren reflecteren"
 		"foot foot";
 }
