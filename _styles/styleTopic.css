@@ -103,6 +103,7 @@ p {
 		"onderzoek"
 		"oTekst"
 		"reflecteren"
+		"rTekst"
 		"foot";
 }
 
@@ -216,6 +217,10 @@ a:hover > #logoNaamFooter {
 	text-decoration: none;
 }
 
+.box5A {
+	grid-area: rTekst;
+}
+
 
 /**********End Global (small)***/
 
@@ -246,6 +251,7 @@ a:hover > #logoNaamFooter {
 		"onderzoek onderzoek"
 		"oTekst oTekst"
 		"reflecteren reflecteren"
+		"rTekst rTekst"
 		"foot foot";
 }
 
@@ -283,6 +289,7 @@ a:hover > #logoNaamFooter {
 		"onderzoek onderzoek"
 		"oTekst oTekst"
 		"reflecteren reflecteren"
+		"rTekst rTekst"
 		"foot foot";
 }
 
@@ -329,6 +336,7 @@ h2 {
 		"onderzoek onderzoek"
 		"oTekst oTekst"
 		"reflecteren reflecteren"
+		"rTekst rTekst"
 		"foot foot";
 }
 
