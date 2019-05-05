@@ -69,6 +69,14 @@ p {
 
 }
 
+.pNormal {
+	background: none;
+	color: black;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 17px;
+}
+
 .pTitel {
 	color: black;
 	font-size: 20px;
@@ -77,6 +85,7 @@ p {
 	background: none;
 	transform: none;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .grid-container {
@@ -90,6 +99,16 @@ p {
 		"nav"
 		"titel"
 		"opdracht"
+		"drie"
+		"vier" 
+		"zes"
+		"zeven" 
+		"acht" 
+		"negen"
+		"tien" 
+		"elf" 
+		"twaalf"
+		"dertien"
 		"foot";
 }
 
@@ -159,6 +178,46 @@ a:hover > #logoNaamFooter {
 	grid-area: opdracht;
 }
 
+.box4 {
+	grid-area: drie;
+}
+
+.box5 {
+	grid-area: vier;
+}
+
+.box6 {
+	grid-area: zes;
+}
+
+.box7 {
+	grid-area: zeven;
+}
+
+.box8 {
+	grid-area: acht;
+}
+
+.box9 {
+	grid-area: negen;
+}
+
+.box10 {
+	grid-area: tien;
+}
+
+.box11 {
+	grid-area: elf;
+}
+
+.box12 {
+	grid-area: twaalf;
+}
+
+.box13 {
+	grid-area: dertien;
+}
+
 img {
 	width: 100%;
 }
@@ -190,6 +249,16 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
+		"drie drie"
+		"vier vier" 
+		"zes zes"
+		"zeven zeven" 
+		"acht acht" 
+		"negen negen"
+		"tien tien" 
+		"elf elf" 
+		"twaalf twaalf"
+		"dertien dertien"
 		"foot foot";
 }
 
@@ -219,6 +288,16 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
+		"drie drie"
+		"vier vier" 
+		"zes zes"
+		"zeven zeven" 
+		"acht acht" 
+		"negen negen"
+		"tien tien" 
+		"elf elf" 
+		"twaalf twaalf"
+		"dertien dertien"
 		"foot foot";
 }
 
@@ -257,6 +336,16 @@ h2 {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
+		"drie drie"
+		"vier vier" 
+		"zes zes"
+		"zeven zeven" 
+		"acht acht" 
+		"negen negen"
+		"tien tien" 
+		"elf elf" 
+		"twaalf twaalf"
+		"dertien dertien"
 		"foot foot";
 }
 
