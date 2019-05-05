@@ -93,6 +93,19 @@ p {
 
 }
 
+.code {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 25%;
+}
+
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr;
