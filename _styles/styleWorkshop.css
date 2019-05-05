@@ -91,7 +91,7 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -100,15 +100,25 @@ p {
 		"titel"
 		"opdracht"
 		"drie"
-		"vier" 
+		"drieTekst"
+		"vier"
+		"vierTekst"
 		"zes"
-		"zeven" 
-		"acht" 
+		"zesTekst"
+		"zeven"
+		"zevenTekst"
+		"acht"
+		"achtTekst"
 		"negen"
-		"tien" 
-		"elf" 
+		"negenTekst"
+		"tien"
+		"tienTekst" 
+		"elf"
+		"elfTekst"
 		"twaalf"
+		"twaalfTekst"
 		"dertien"
+		"dertienTekst"
 		"foot";
 }
 
@@ -182,40 +192,80 @@ a:hover > #logoNaamFooter {
 	grid-area: drie;
 }
 
+.box4A {
+	grid-area: drieTekst;
+}
+
 .box5 {
 	grid-area: vier;
+}
+
+.box5A {
+	grid-area: vierTekst;
 }
 
 .box6 {
 	grid-area: zes;
 }
 
+.box6A {
+	grid-area: zesTekst;
+}
+
 .box7 {
 	grid-area: zeven;
+}
+
+.box7A {
+	grid-area: zevenTekst;
 }
 
 .box8 {
 	grid-area: acht;
 }
 
+.box8A {
+	grid-area: achtTekst;
+}
+
 .box9 {
 	grid-area: negen;
+}
+
+.box9A {
+	grid-area: negenTekst;
 }
 
 .box10 {
 	grid-area: tien;
 }
 
+.box10A {
+	grid-area: tienTekst;
+}
+
 .box11 {
 	grid-area: elf;
+}
+
+.box11A {
+	grid-area: elfTekst;
 }
 
 .box12 {
 	grid-area: twaalf;
 }
 
+.box12A {
+	grid-area: twaalfTekst;
+}
+
 .box13 {
 	grid-area: dertien;
+}
+
+.box13A {
+	grid-area: dertienTekst;
 }
 
 img {
@@ -241,7 +291,7 @@ img {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -250,15 +300,25 @@ img {
 		"titel titel"
 		"opdracht opdracht"
 		"drie drie"
-		"vier vier" 
+		"drieTekst drieTekst"
+		"vier vier"
+		"vierTekst vierTekst"
 		"zes zes"
-		"zeven zeven" 
-		"acht acht" 
+		"zesTekst zesTekst"
+		"zeven zeven"
+		"zevenTekst zevenTekst" 
+		"acht acht"
+		"achtTekst achtTekst" 
 		"negen negen"
+		"negenTekst negenTekst"
 		"tien tien" 
-		"elf elf" 
+		"tienTekst tienTekst"
+		"elf elf"
+		"elfTekst elfTekst" 
 		"twaalf twaalf"
+		"twaalfTekst twaalfTekst"
 		"dertien dertien"
+		"dertienTekst dertienTekst"
 		"foot foot";
 }
 
@@ -280,7 +340,7 @@ img {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -289,15 +349,25 @@ img {
 		"titel titel"
 		"opdracht opdracht"
 		"drie drie"
-		"vier vier" 
+		"drieTekst drieTekst"
+		"vier vier"
+		"vierTekst vierTekst"
 		"zes zes"
-		"zeven zeven" 
-		"acht acht" 
+		"zesTekst zesTekst"
+		"zeven zeven"
+		"zevenTekst zevenTekst" 
+		"acht acht"
+		"achtTekst achtTekst" 
 		"negen negen"
+		"negenTekst negenTekst"
 		"tien tien" 
-		"elf elf" 
+		"tienTekst tienTekst"
+		"elf elf"
+		"elfTekst elfTekst" 
 		"twaalf twaalf"
+		"twaalfTekst twaalfTekst"
 		"dertien dertien"
+		"dertienTekst dertienTekst"
 		"foot foot";
 }
 
@@ -328,7 +398,7 @@ h2 {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -337,15 +407,25 @@ h2 {
 		"titel titel"
 		"opdracht opdracht"
 		"drie drie"
-		"vier vier" 
+		"drieTekst drieTekst"
+		"vier vier"
+		"vierTekst vierTekst"
 		"zes zes"
-		"zeven zeven" 
-		"acht acht" 
+		"zesTekst zesTekst"
+		"zeven zeven"
+		"zevenTekst zevenTekst" 
+		"acht acht"
+		"achtTekst achtTekst" 
 		"negen negen"
+		"negenTekst negenTekst"
 		"tien tien" 
-		"elf elf" 
+		"tienTekst tienTekst"
+		"elf elf"
+		"elfTekst elfTekst" 
 		"twaalf twaalf"
+		"twaalfTekst twaalfTekst"
 		"dertien dertien"
+		"dertienTekst dertienTekst"
 		"foot foot";
 }
 
