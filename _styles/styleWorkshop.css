@@ -93,18 +93,6 @@ p {
 
 }
 
-.code {
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.video {
-	display: block;
-	margin: 0 auto;
-	width: 25%;
-}
 
 .grid-container {
 	display: grid;
@@ -291,6 +279,20 @@ img {
 }
 
 
+.code {
+	display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 20px;
+}
+
+
 
 /**********End Global (small)***/
 
@@ -349,6 +351,24 @@ img {
 	margin-top: 125px;
 }
 
+.codeVideo {
+	text-align: center;
+}
+
+.code {
+	display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video {
+	display: inline-block;
+	margin: 0 auto;
+	width: 25%;
+	padding: 20px;
+}
+
 }
 /**********End Mid************/
 
@@ -395,6 +415,25 @@ img {
 
 .box1 {
 	margin-top: 125px;
+}
+
+
+.codeVideo {
+	text-align: center;
+}
+
+.code {
+	display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video {
+	display: inline-block;
+	margin: 0 auto;
+	width: 25%;
+	padding: 20px;
 }
 
 
@@ -453,6 +492,24 @@ h2 {
 
 .box1 {
 	margin-top: 150px;
+}
+
+.codeVideo {
+	text-align: center;
+}
+
+.code {
+	display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video {
+	display: inline-block;
+	margin: 0 auto;
+	width: 25%;
+	padding: 20px;
 }
 
 
