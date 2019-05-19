@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<link type="text/css" href="_styles/nav.css" rel="stylesheet" />
-		<link type="text/css" href="_styles/styleWorkshop.css" rel="stylesheet" />
+		<link type="text/css" href="_styles/styleWorkshopArduino.css" rel="stylesheet" />
 
 	</head>
 	<body>
@@ -68,7 +68,6 @@
 
 			<section class="box5">
 				<h4 class="pTitel">4c: Fade LED – Analog Output</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box5A">
@@ -87,7 +86,6 @@
 
 			<section class="box6">
 				<h4 class="pTitel">6c: Controlling a LED with a potmeter</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box6A">
@@ -106,7 +104,6 @@
 
 			<section class="box7">
 				<h4 class="pTitel">7: Control the LED with light</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box7A">
@@ -123,56 +120,109 @@
 
 			<section class="box8">
 				<h4 class="pTitel">8: Voltage Divider</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box8A">
-				<p class="pNormal">8</p>
+				<p class="pNormal">De sensoren van opdrachten 5, 6 en 7 zijn gebaseerd op een vrij algemeen circuit in de elektronica genaamd voltage divider. The A0 - A5 pins van de Arduino zijn allemaal in staat om tussen de 0 en 5V te meten en dit om te zetten naar een getal tussen de 0 en 1023. 
+				</br>
+				Deze opdracht laat het aantal spanning wat langs de resistor komt manipuleren. Eerst worden er niks gestopt, als tweede wordt alle spanning gestopt. De spanning wordt dan op de eerste resistor en als laatste wordt de tweede resistor gestopt. De spanning komt eerst langs resistor 1. Als resistor 1 licht is , dan vangt deze wel iets van spanning op, omdat de spanning eerst langs r1 moet om naar r2 te gaan. Als r2 licht is, dan zal de spanning naar r1 gaan en dan gaat er niets naar r2, omdat de spanning bij r2 wordt gestopt en eerst langs r1 geleid de spanning dus naar r2. r1 is dus een verbindende factor naar r2.
+				</p>
+
+				<img class="code" src="_img/workshop_arduino/opdracht_8/code_8.png" alt="Code van opdracht 8.">
+
+				<video class="video" controls>
+	  				<source src="_img/workshop_arduino/opdracht_8/video_8.mp4" type="video/mp4">
+				</video>
 			</section>
 
 			<section class="box9">
 				<h4 class="pTitel">9b: Arduino and Processing</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box9A">
-				<p class="pNormal">9</p>
+				<p class="pNormal">
+				In deze opdracht wordt er een extra programma gebruikt, processing. Processing is een flexibele software sketchbook en een taal om te leren hoe je code in een context of visual arts.
+				</br>
+				De opdracht maakt een zwart rondje op het scherm, die je kan aanpassen door de resistor van de vorige opdracht af te sluiten en aan te zetten. In het programma Processing kan je het rondje veranderen in een andere vorm en stijl. Hier is het rondje in een vierkant gemaakt en is de kleur aangepast.
+				</p>
+
+				<img class="code" src="_img/workshop_arduino/opdracht_9b/code_9.png" alt="Code van opdracht 9.">
+
+				<video class="video" controls>
+	  				<source src="_img/workshop_arduino/opdracht_9b/video_9.mp4" type="video/mp4">
+				</video>
 			</section>
 
 			<section class="box10">
 				<h4 class="pTitel">10f: Buttons</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box10A">
-				<p class="pNormal">10</p>
+				<p class="pNormal">
+				De simpelste sensor is een button. Een button functioneert door het afsluiten van een circuit en dit kan de Arduino zien. In deze opdracht worden de buttons op verschillende manieren gebruikt.
+				</br>
+				Eerst werd er een button op de Arduino aangesloten, daarna werd er een tweede button aan toegevoegd. De twee buttons die worden gebruikt op de Arduino worden zo gebruikt, dat het licht aangaat als de eerste button wordt ingedrukt of als de tweede button wordt ingedrukt. Het licht gaat niet aan als allebei de buttons worden ingedrukt.
+				</p>
+
+				<img class="code" src="_img/workshop_arduino/opdracht_10f/code_10.png" alt="Code van opdracht 10.">
+
+				<video class="video" controls>
+	  				<source src="_img/workshop_arduino/opdracht_10f/video_10.mp4" type="video/mp4">
+				</video>
 			</section>
 
 			<section class="box11">
 				<h4 class="pTitel">11b: Servomotor</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box11A">
-				<p class="pNormal">11</p>
+				<p class="pNormal">
+				Servomotoren zijn motoren die kunnen draaien naar een precieze positie. Ze zijn voor veel doeleinden toepasbaar, maar de meest opvallende toepassing is die van op afstand bestuurbare voertuigen. Ze worden bijvoorbeeld gebruikt om de wielen van een op afstandbestuurbare auto te sturen of om het roer van een op afstand bestuurbare boot te laten draaien. Een andere toepassing is om een beveiligingscamera uit te voeren om op iets specifieks te focussen.
+				</br>
+				De meeste servo's kunnen niet volledig draaien. Meestal hebben ze een bereik van ± 180 °. In deze oefening wordt de servo bestuurt om een ​​voorgeprogrammeerde beweging uit te voeren.	
+				</p>
+
+				<img class="code" src="_img/workshop_arduino/opdracht_11b/code_11.png" alt="Code van opdracht 11.">
+
+				<video class="video" controls>
+	  				<source src="_img/workshop_arduino/opdracht_11b/video_11.mp4" type="video/mp4">
+				</video>
 			</section>
 
 			<section class="box12">
 				<h4 class="pTitel">12b: Controlling the servo with inputs</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box12A">
-				<p class="pNormal">12</p>
+				<p class="pNormal">
+				In de vorige opdracht is de servo zo ingesteld dat hij op een grappige manier bepaalde posities en draaien maakt. In deze opdracht worden er twee buttons toegevoegd aan de Arduino. De linker buttons zorgt ervoor dat de servo naar links draait en de rechter button zorgt ervoor dat de servo naar rechts draait.
+				</br>
+				Zo zijn eerdere opdrachten met elkaar gecombineerd.
+				</p>
+
+				<img class="code" src="_img/workshop_arduino/opdracht_12b/code_12.png" alt="Code van opdracht 12.">
+
+				<video class="video" controls>
+	  				<source src="_img/workshop_arduino/opdracht_12b/video_12.mp4" type="video/mp4">
+				</video>
 			</section>
 
 			<section class="box13">
 				<h4 class="pTitel">13b: Sound</h4>
-				<p class="pNormal"></p>
 			</section>
 
 			<section class="box13A">
-				<p class="pNormal">13</p>
+				<p class="pNormal">
+				Wanneer je een luidspreker aansluit, kan het Arduino-bord geluid produceren. Dit gebeurt met een zogenaamde Piezo-luidspreker (ziet eruit als een kleine zwarte cilinder) die bestaat uit een plaat van twee verschillende metalen die kunnen trillen en dus geluid produceren.
+				</br>
+				In deze opdracht worden noten verbonden aan frequentie, in de vorm van hertz. Een liedje is opgezocht, daarvan zijn de noten omgezet en dit wordt afgespeeld door de Piezo-luidspreker op de Arduino. Voor deze opdracht is het liedje twinkle, twinkle little star omgezet naar frequenties.
+				</p>
+
+				<img class="code" src="_img/workshop_arduino/opdracht_13b/code_13.png" alt="Code van opdracht 13.">
+
+				<video class="video" controls>
+	  				<source src="_img/workshop_arduino/opdracht_13b/video_13.mp4" type="video/mp4">
+				</video>
 			</section>
 
 			<footer class="boxB">
