@@ -106,12 +106,14 @@ p {
 		"nav"
 		"titel"
 		"opdracht"
-		"drie"
-		"drieTekst"
-		"vier"
-		"vierTekst"
-		"zes"
-		"zesTekst"
+		"aeen"
+		"aeenVisual"
+		"atwee"
+		"atweeVisual"
+		"adrie"
+		"adrieVisual"
+		"cveen"
+		"cveenVisual"
 		"foot";
 }
 
@@ -182,27 +184,35 @@ a:hover > #logoNaamFooter {
 }
 
 .box4 {
-	grid-area: drie;
+	grid-area: aeen;
 }
 
 .box4A {
-	grid-area: drieTekst;
+	grid-area: aeenVisual;
 }
 
 .box5 {
-	grid-area: vier;
+	grid-area: atwee;
 }
 
 .box5A {
-	grid-area: vierTekst;
+	grid-area: atweeVisual;
 }
 
 .box6 {
-	grid-area: zes;
+	grid-area: adrie;
 }
 
 .box6A {
-	grid-area: zesTekst;
+	grid-area: adrieVisual;
+}
+
+.box7 {
+	grid-area: cveen;
+}
+
+.box7A {
+	grid-area: cveenVisual;
 }
 
 img {
@@ -267,12 +277,14 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"drie drie"
-		"drieTekst drieTekst"
-		"vier vier"
-		"vierTekst vierTekst"
-		"zes zes"
-		"zesTekst zesTekst"
+		"aeen aeen"
+		"aeenVisual aeenVisual"
+		"atwee atwee"
+		"atweeVisual atweeVisual"
+		"adrie adrie"
+		"adrieVisual adrieVisual"
+		"cveen cveen"
+		"cveenVisual cveenVisual"
 		"foot foot";
 }
 
@@ -323,12 +335,14 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"drie drie"
-		"drieTekst drieTekst"
-		"vier vier"
-		"vierTekst vierTekst"
-		"zes zes"
-		"zesTekst zesTekst"
+		"aeen aeen"
+		"aeenVisual aeenVisual"
+		"atwee atwee"
+		"atweeVisual atweeVisual"
+		"adrie adrie"
+		"adrieVisual adrieVisual"
+		"cveen cveen"
+		"cveenVisual cveenVisual"
 		"foot foot";
 }
 
@@ -389,13 +403,14 @@ h2 {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"drie drie"
-		"drieTekst drieTekst"
-		"vier vier"
-		"vierTekst vierTekst"
-		"zes zes"
-		"zesTekst zesTekst"
-		"dertienTekst dertienTekst"
+		"aeen aeen"
+		"aeenVisual aeenVisual"
+		"atwee atwee"
+		"atweeVisual atweeVisual"
+		"adrie adrie"
+		"adrieVisual adrieVisual"
+		"cveen cveen"
+		"cveenVisual cveenVisual"
 		"foot foot";
 }
 
