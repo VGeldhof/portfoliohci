@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+html {
+  box-sizing: border-box;
+}
+
+/************Small (Global)****/
+
+body {
+	color: #17252a;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: rgba(222, 242, 241, 0.1);
+}
+
+/*h1 {
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	display: inline-block;
+	font-size: 1em;
+	margin: 0;
+	margin-left: 40px;
+}*/
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	color: black;
+/*	margin-left: 15px;*/
+	margin: 0;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 40px;
+	padding: 0px 20px 0px 20px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+	color: #17252a;
+	margin-left: 15px;
+	margin: 0;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 40px;
+	padding: 0px 20px 0px 20px;
+	width: 80%;
+	background: #def2f1;
+    padding: 20px;
+    box-shadow: 5px 5px rgba(45, 195, 192, 0.4);
+/*    transform: translate(0px, 45px);*/
+
+}
+
+p {
+	color: white;
+	font-size: 20px;
+	margin: 0;
+	padding: 0px 20px 0px 20px;
+	margin-left: 50px;
+/*	background: rgb(45, 195, 192);*/
+	background: #01bcb9;
+	transform: translate(0px, -45px);
+	padding: 25px;
+
+}
+
+.pNormal {
+	background: none;
+	color: black;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 17px;
+	transform: none;
+}
+
+.pTitel {
+	text-transform: uppercase;
+    padding: 20px;
+    box-shadow: 5px 5px rgba(45, 195, 192, 0.4);
+
+	color: black;
+	font-size: 20px;
+	margin: 0;
+/*	padding: 0px 20px 0px 20px;*/
+	background: none;
+	transform: none;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 500px;
+	grid-gap: 10px;
+
+	grid-template-areas: 
+		"nav"
+		"titel"
+		"opdracht"
+		"aeen"
+		"aeenVisual"
+		"atwee"
+		"atweeVisual"
+		"adrie"
+		"adrieVisual"
+		"cveen"
+		"cveenVisual"
+		"cvtwee"
+		"cvtweeVisual"
+		"cvdrie"
+		"cvdrieVisual"
+		"cvbonus"
+		"cvbonusVisual"
+		"cvvier"
+		"cvvierVisual"
+		"foot";
+}
+
+.grid-item {
+	margin: 5px 0px 5px 5px;
+}
+
+.boxA {
+	grid-area: nav;
+	background-color: #17252a;
+}
+
+#logoNaam {
+	font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+/*    margin-left: 75px;*/
+    transform: translate(0px, -9px);
+}
+
+a > #logoNaam {
+	color: #fff;
+}
+
+a:hover > #logoNaam {
+	color: rgb(45, 195, 192);
+}
+
+.boxB {
+	grid-area: foot;
+	background-color: #17252a;
+	height: 40px;
+}
+
+#logoNaamFooter {
+	font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+/*    margin-left: 75px;*/
+    transform: translate(0px, 9px);
+    margin: 0;
+}
+
+a > #logoNaamFooter {
+	color: #fff;
+}
+
+a:hover > #logoNaamFooter {
+	color: rgb(45, 195, 192);
+}
+
+.box1 {
+	grid-area: titel;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.box3 {
+	grid-area: opdracht;
+}
+
+.box4 {
+	grid-area: aeen;
+}
+
+.box4A {
+	grid-area: aeenVisual;
+}
+
+.box5 {
+	grid-area: atwee;
+}
+
+.box5A {
+	grid-area: atweeVisual;
+}
+
+.box6 {
+	grid-area: adrie;
+}
+
+.box6A {
+	grid-area: adrieVisual;
+}
+
+.box7 {
+	grid-area: cveen;
+}
+
+.box7A {
+	grid-area: cveenVisual;
+}
+
+.box8 {
+	grid-area: cvtwee;
+}
+
+.box8A {
+	grid-area: cvtweeVisual;
+}
+
+.box9 {
+	grid-area: cvdrie;
+}
+
+.box9A {
+	grid-area: cvdrieVisual;
+}
+
+.box10 {
+	grid-area: cvbonus;
+}
+.box10A {
+	grid-area: cvbonusVisual;
+}
+
+.box11 {
+	grid-area: cvvier;
+}
+
+.box11A {
+	grid-area: cvvierVisual;
+}
+
+img {
+	width: 100%;
+}
+
+.visual {
+	width: 25%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+.code {
+	display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.vNormal {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: none;
+}
+
+
+
+/**********End Global (small)***/
+
+/************Small-Mid**************/
+@media only screen and (min-width: 470px) and (max-width: 719px) {
+
+
+
+
+}
+/************End Small-Mid**************/
+
+/************Mid**************/
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 500px;
+	grid-gap: 10px;
+
+	grid-template-areas: 
+		"nav nav"
+		"titel titel"
+		"opdracht opdracht"
+		"aeen aeen"
+		"aeenVisual aeenVisual"
+		"atwee atwee"
+		"atweeVisual atweeVisual"
+		"adrie adrie"
+		"adrieVisual adrieVisual"
+		"cveen cveen"
+		"cveenVisual cveenVisual"
+		"cvtwee cvtwee"
+		"cvtweeVisual cvtweeVisual"
+		"cvdrie cvdrie"
+		"cvdrieVisual cvdrieVisual"
+		"cvbonus cvbonus"
+		"cvbonusVisual cvbonusVisual"
+		"cvvier cvvier"
+		"cvvierVisual cvvierVisual"
+		"foot foot";
+}
+
+.boxB {
+	margin-top: 50px;
+}
+
+
+.box1 {
+	margin-top: 125px;
+}
+
+.code {
+	display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	padding: 20px;
+}
+
+.vNormal {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	padding: 20px;
+}
+
+}
+/**********End Mid************/
+
+/***********Large*************/
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 500px;
+	grid-gap: 10px;
+
+	grid-template-areas: 
+		"nav nav"
+		"titel titel"
+		"opdracht opdracht"
+		"aeen aeen"
+		"aeenVisual aeenVisual"
+		"atwee atwee"
+		"atweeVisual atweeVisual"
+		"adrie adrie"
+		"adrieVisual adrieVisual"
+		"cveen cveen"
+		"cveenVisual cveenVisual"
+		"cvtwee cvtwee"
+		"cvtweeVisual cvtweeVisual"
+		"cvdrie cvdrie"
+		"cvdrieVisual cvdrieVisual"
+		"cvbonus cvbonus"
+		"cvbonusVisual cvbonusVisual"
+		"cvvier cvvier"
+		"cvvierVisual cvvierVisual"
+		"foot foot";
+}
+
+.boxB {
+	margin-top: 50px;
+}
+
+.box1 {
+	margin-top: 125px;
+}
+
+
+.code {
+	display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	padding: 20px;
+}
+
+.Normal {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	padding: 20px;
+}
+
+
+}
+/*********End Large***********/
+
+/************XL**************/
+@media only screen and (min-width: 1440px) {
+
+.pTitel {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 80px;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 500px;
+	grid-gap: 10px;
+
+	grid-template-areas: 
+		"nav nav"
+		"titel titel"
+		"opdracht opdracht"
+		"aeen aeen"
+		"aeenVisual aeenVisual"
+		"atwee atwee"
+		"atweeVisual atweeVisual"
+		"adrie adrie"
+		"adrieVisual adrieVisual"
+		"cveen cveen"
+		"cveenVisual cveenVisual"
+		"cvtwee cvtwee"
+		"cvtweeVisual cvtweeVisual"
+		"cvdrie cvdrie"
+		"cvdrieVisual cvdrieVisual"
+		"cvbonus cvbonus"
+		"cvbonusVisual cvbonusVisual"
+		"cvvier cvvier"
+		"cvvierVisual cvvierVisual"
+		"foot foot";
+}
+
+.boxB {
+	margin-top: 50px;
+}
+
+.box1 {
+	margin-top: 150px;
+}
+
+.code {
+	display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 100px;
+}
+
+.vNormal {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 20px;
+}
+
+
+}
+/**********End XL************/
+
