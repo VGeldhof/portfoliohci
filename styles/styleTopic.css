@@ -77,6 +77,11 @@ p {
 	font-size: 17px;
 }
 
+span {
+	text-align: center;
+	display: block;
+}
+
 .pTitel {
 	color: black;
 	font-size: 20px;
@@ -188,6 +193,13 @@ a:hover > #logoNaamFooter {
     margin-bottom: 20px;
 }
 
+.sketchARVR {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 .box4 {
 	grid-area: onderzoek;
 }
@@ -268,6 +280,14 @@ a:hover > #logoNaamFooter {
 	margin-right: 70px;
 }
 
+.sketchARVR {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: none;
+}
+
 }
 /**********End Mid************/
 
@@ -303,6 +323,14 @@ a:hover > #logoNaamFooter {
 
 .sketch {
 	margin-right: 70px;
+}
+
+.sketchARVR {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: none;
 }
 
 
@@ -350,6 +378,14 @@ h2 {
 
 .sketch {
 	margin-right: 70px;
+}
+
+.sketchARVR {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-right: none;
 }
 
 
