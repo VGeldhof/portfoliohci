@@ -193,7 +193,13 @@ img {
 	grid-area: reflecteren;
 }
 
-
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
 
 /**********End Global (small)***/
 
