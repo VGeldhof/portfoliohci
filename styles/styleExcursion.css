@@ -79,6 +79,14 @@ p {
 	text-align: center;
 }
 
+.pNormal {
+	background: none;
+	color: black;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 17px;
+}
+
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -90,7 +98,8 @@ p {
 		"nav"
 		"titel"
 		"opdracht"
-		"onderzoek"
+		"case"
+		"cfoto"
 		"reflecteren"
 		"foot";
 }
@@ -161,15 +170,26 @@ a:hover > #logoNaamFooter {
 	grid-area: opdracht;
 }
 
+.box3A {
+	grid-area: case;
+}
+
+.box3B {
+	grid-area: cfoto;
+}
+
 img {
 	width: 100%;
 }
 
-.box4 {
-	grid-area: onderzoek;
+.sketch {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
-.box5 {
+.box4 {
 	grid-area: reflecteren;
 }
 
@@ -200,7 +220,7 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"onderzoek onderzoek"
+		"case cfoto"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -212,6 +232,10 @@ img {
 
 .box1 {
 	margin-top: 125px;
+}
+
+.sketch {
+	margin-right: 70px;
 }
 
 }
@@ -231,7 +255,7 @@ img {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"onderzoek onderzoek"
+		"case cfoto"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -242,6 +266,10 @@ img {
 
 .box1 {
 	margin-top: 125px;
+}
+
+.sketch {
+	margin-right: 70px;
 }
 
 
@@ -271,7 +299,7 @@ h2 {
 		"nav nav"
 		"titel titel"
 		"opdracht opdracht"
-		"onderzoek onderzoek"
+		"case cfoto"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -284,7 +312,9 @@ h2 {
 	margin-top: 150px;
 }
 
-
+.sketch {
+	margin-right: 70px;
+}
 
 }
 /**********End XL************/
