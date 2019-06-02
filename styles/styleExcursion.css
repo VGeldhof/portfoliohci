@@ -101,6 +101,7 @@ p {
 		"case"
 		"cfoto"
 		"reflecteren"
+		"rTekst"
 		"foot";
 }
 
@@ -193,6 +194,10 @@ img {
 	grid-area: reflecteren;
 }
 
+.box4A {
+	grid-area: rTekst;
+}
+
 .video {
 	display: block;
 	margin: 0 auto;
@@ -228,6 +233,7 @@ img {
 		"opdracht opdracht"
 		"case cfoto"
 		"reflecteren reflecteren"
+		"rTekst rTekst"
 		"foot foot";
 }
 
@@ -263,6 +269,7 @@ img {
 		"opdracht opdracht"
 		"case cfoto"
 		"reflecteren reflecteren"
+		"rTekst rTekst"
 		"foot foot";
 }
 
@@ -307,6 +314,7 @@ h2 {
 		"opdracht opdracht"
 		"case cfoto"
 		"reflecteren reflecteren"
+		"rTekst rTekst"
 		"foot foot";
 }
 
