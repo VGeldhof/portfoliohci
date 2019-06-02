@@ -259,7 +259,7 @@ img {
 }
 
 .visual {
-	width: 25%;
+	width: 75%;
 	display: block;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -483,6 +483,14 @@ h2 {
 
 .box1 {
 	margin-top: 150px;
+}
+
+.visual {
+	width: 25%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 .code {
