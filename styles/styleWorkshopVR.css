@@ -112,6 +112,8 @@ p {
 		"vierTekst"
 		"zes"
 		"zesTekst"
+		"zeven"
+		"zevenTekst"
 		"foot";
 }
 
@@ -205,6 +207,14 @@ a:hover > #logoNaamFooter {
 	grid-area: zesTekst;
 }
 
+.box7 {
+	grid-area: zeven;
+}
+
+.box7A {
+	grid-area: zevenTekst;
+}
+
 img {
 	width: 100%;
 }
@@ -265,6 +275,8 @@ img {
 		"vierTekst vierTekst"
 		"zes zes"
 		"zesTekst zesTekst"
+		"zeven zeven"
+		"zevenTekst zevenTekst"
 		"foot foot";
 }
 
@@ -321,6 +333,8 @@ img {
 		"vierTekst vierTekst"
 		"zes zes"
 		"zesTekst zesTekst"
+		"zeven zeven"
+		"zevenTekst zevenTekst"
 		"foot foot";
 }
 
@@ -387,7 +401,8 @@ h2 {
 		"vierTekst vierTekst"
 		"zes zes"
 		"zesTekst zesTekst"
-		"dertienTekst dertienTekst"
+		"zeven zeven"
+		"zevenTekst zevenTekst"
 		"foot foot";
 }
 
