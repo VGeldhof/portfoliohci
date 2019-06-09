@@ -69,7 +69,20 @@ p {
 
 }
 
+.pNormal {
+	background: none;
+	color: black;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 17px;
+	transform: none;
+}
+
 .pTitel {
+	text-transform: uppercase;
+    padding: 20px;
+    box-shadow: 5px 5px rgba(45, 195, 192, 0.4);
+
 	color: black;
 	font-size: 20px;
 	margin: 0;
@@ -77,20 +90,39 @@ p {
 	background: none;
 	transform: none;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
 	grid-template-areas: 
 		"nav"
 		"titel"
-		"opdracht"
-		"onderzoek"
+		"proces"
+		"dageen"
+		"dageenTekst"
+		"dagtwee"
+		"dagtweeTekst"
+		"dagdrie"
+		"dagdrieTekst"
+		"dagvier"
+		"dagvierTekst"
+		"dagvijf"
+		"dagvijfTekst"
+		"dagzes"
+		"dagzesTekst"
+		"dagzeven"
+		"dagzevenTekst"
+		"dagacht"
+		"dagachtTekst"
+		"dagnegen"
+		"dagnegenTekst"
+		"product"
 		"reflecteren"
 		"foot";
 }
@@ -158,15 +190,89 @@ a:hover > #logoNaamFooter {
 }
 
 .box3 {
-	grid-area: opdracht;
+	grid-area: proces;
 }
 
 img {
-	width: 100%;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+.box6A {
+	grid-area: dageen;
+}
+
+.box6B {
+	grid-area: dageenTekst;
+}
+
+.box7A {
+	grid-area: dagtwee;
+}
+
+.box7B {
+	grid-area: dagtweeTekst;
+}
+
+.box8A {
+	grid-area: dagdrie;
+}
+
+.box8B {
+	grid-area: dagdrieTekst;
+}
+
+.box9A {
+	grid-area: dagvier;
+}
+
+.box9B {
+	grid-area: dagvierTekst;
+}
+
+.box10A {
+	grid-area: dagvijf;
+}
+
+.box10B {
+	grid-area: dagvijfTekst;
+}
+
+.box11A {
+	grid-area: dagzes;
+}
+
+.box11B {
+	grid-area: dagzesTekst;
+}
+
+.box12A {
+	grid-area: dagzeven;
+}
+
+.box12B {
+	grid-area: dagzevenTekst;
+}
+
+.box13A {
+	grid-area: dagacht;
+}
+
+.box13B {
+	grid-area: dagachtTekst;
+}
+
+.box14A {
+	grid-area: dagnegen;
+}
+
+.box14B {
+	grid-area: dagnegenTekst;
 }
 
 .box4 {
-	grid-area: onderzoek;
+	grid-area: product;
 }
 
 .box5 {
@@ -192,15 +298,33 @@ img {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
 	grid-template-areas: 
 		"nav nav"
 		"titel titel"
-		"opdracht opdracht"
-		"onderzoek onderzoek"
+		"proces proces"
+		"dageen dageen"
+		"dageenTekst dageenTekst"
+		"dagtwee dagtwee"
+		"dagtweeTekst dagtweeTekst"
+		"dagdrie dagdrie"
+		"dagdrieTekst dagdrieTekst"
+		"dagvier dagvier"
+		"dagvierTekst dagvierTekst"
+		"dagvijf dagvijf"
+		"dagvijfTekst dagvijfTekst"
+		"dagzes dagzes"
+		"dagzesTekst dagzesTekst"
+		"dagzeven dagzeven"
+		"dagzevenTekst dagzevenTekst"
+		"dagacht dagacht" 
+		"dagachtTekst dagachtTekst"
+		"dagnegen dagnegen"
+		"dagnegenTekst dagnegenTekst"
+		"product product"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -212,6 +336,13 @@ img {
 
 .box1 {
 	margin-top: 125px;
+}
+
+img {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 }
@@ -223,15 +354,33 @@ img {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
 	grid-template-areas: 
 		"nav nav"
 		"titel titel"
-		"opdracht opdracht"
-		"onderzoek onderzoek"
+		"proces proces"
+		"dageen dageen"
+		"dageenTekst dageenTekst"
+		"dagtwee dagtwee"
+		"dagtweeTekst dagtweeTekst"
+		"dagdrie dagdrie"
+		"dagdrieTekst dagdrieTekst"
+		"dagvier dagvier"
+		"dagvierTekst dagvierTekst"
+		"dagvijf dagvijf"
+		"dagvijfTekst dagvijfTekst"
+		"dagzes dagzes"
+		"dagzesTekst dagzesTekst"
+		"dagzeven dagzeven"
+		"dagzevenTekst dagzevenTekst"
+		"dagacht dagacht" 
+		"dagachtTekst dagachtTekst"
+		"dagnegen dagnegen"
+		"dagnegenTekst dagnegenTekst"
+		"product product"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -244,6 +393,12 @@ img {
 	margin-top: 125px;
 }
 
+img {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
 
 }
 /*********End Large***********/
@@ -263,15 +418,33 @@ h2 {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
 	grid-template-areas: 
 		"nav nav"
 		"titel titel"
-		"opdracht opdracht"
-		"onderzoek onderzoek"
+		"proces proces"
+		"dageen dageen"
+		"dageenTekst dageenTekst"
+		"dagtwee dagtwee"
+		"dagtweeTekst dagtweeTekst"
+		"dagdrie dagdrie"
+		"dagdrieTekst dagdrieTekst"
+		"dagvier dagvier"
+		"dagvierTekst dagvierTekst"
+		"dagvijf dagvijf"
+		"dagvijfTekst dagvijfTekst"
+		"dagzes dagzes"
+		"dagzesTekst dagzesTekst"
+		"dagzeven dagzeven"
+		"dagzevenTekst dagzevenTekst"
+		"dagacht dagacht" 
+		"dagachtTekst dagachtTekst"
+		"dagnegen dagnegen"
+		"dagnegenTekst dagnegenTekst"
+		"product product"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -284,6 +457,31 @@ h2 {
 	margin-top: 150px;
 }
 
+.containerFoto {
+	display: flex;
+}
+
+img {
+	width: 35%;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.lFoto {
+	margin-right: 40px;
+}
+
+.rFoto {
+	margin-left: 40px;
+}
+
+.eFoto {
+	width: 35%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
 
 
 }
