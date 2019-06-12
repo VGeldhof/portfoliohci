@@ -483,6 +483,12 @@ img {
 	margin-bottom: 50px;
 }
 
+.exFoto {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
 
 }
 /**********End XL************/
