@@ -96,7 +96,7 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: 500px;
 	grid-gap: 10px;
 
@@ -123,6 +123,10 @@ p {
 		"dagnegen"
 		"dagnegenTekst"
 		"product"
+		"pTitel"
+		"pTekst"
+		"pFoto"
+		"pVideo"
 		"reflecteren"
 		"foot";
 }
@@ -275,6 +279,22 @@ img {
 	grid-area: product;
 }
 
+.box4A {
+	grid-area: pTitel;
+}
+
+.box4B {
+	grid-area: pTekst;
+}
+
+.box4C {
+	grid-area: pFoto;
+}
+
+.box4D {
+	grid-area: pVideo;
+}
+
 .box5 {
 	grid-area: reflecteren;
 }
@@ -325,6 +345,10 @@ img {
 		"dagnegen dagnegen"
 		"dagnegenTekst dagnegenTekst"
 		"product product"
+		"pTitel pTitel"
+		"pTekst pTekst"
+		"pFoto pFoto"
+		"pVideo pVideo"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -381,6 +405,10 @@ img {
 		"dagnegen dagnegen"
 		"dagnegenTekst dagnegenTekst"
 		"product product"
+		"pTitel pTitel"
+		"pTekst pTekst"
+		"pFoto pFoto"
+		"pVideo pVideo"
 		"reflecteren reflecteren"
 		"foot foot";
 }
@@ -445,6 +473,10 @@ h2 {
 		"dagnegen dagnegen"
 		"dagnegenTekst dagnegenTekst"
 		"product product"
+		"pTitel pTitel"
+		"pTekst pTekst"
+		"pFoto pFoto"
+		"pVideo pVideo"
 		"reflecteren reflecteren"
 		"foot foot";
 }
