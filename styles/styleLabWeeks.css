@@ -299,6 +299,13 @@ img {
 	grid-area: reflecteren;
 }
 
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
 
 
 /**********End Global (small)***/
@@ -369,6 +376,13 @@ img {
 	margin-bottom: 50px;
 }
 
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	padding: 20px;
+}
+
 }
 /**********End Mid************/
 
@@ -426,6 +440,14 @@ img {
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 50px;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	padding: 20px;
+	margin-bottom: 100px;
 }
 
 }
@@ -520,6 +542,14 @@ img {
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 50px;
+}
+
+.video {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 100px;
 }
 
 }
