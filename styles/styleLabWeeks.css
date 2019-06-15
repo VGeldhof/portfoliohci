@@ -126,6 +126,7 @@ p {
 		"pTitel"
 		"pTekst"
 		"pFoto"
+		"pVTitel"
 		"pVideo"
 		"reflecteren"
 		"foot";
@@ -546,6 +547,13 @@ img {
 
 .exFoto {
 	width: 75%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.groupPhoto {
+	width: 50%;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 50px;
